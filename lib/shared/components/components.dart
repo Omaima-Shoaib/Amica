@@ -11,11 +11,12 @@ Widget defaultButton(
       color: backgroundColor,
       height: 40,
       child: MaterialButton(
+        color:Color(0xFF6ECEC4),
         onPressed: () {
           function();
         },
         shape:
-        RoundedRectangleBorder(borderRadius: BorderRadius.circular(25.0)),
+        RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
 
         child: Text(
           text.toUpperCase(),
